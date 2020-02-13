@@ -11,24 +11,29 @@ header {
 	
 
 }
+.principal{
+	height: 940px;
+	background-size: 2224px;
+	background: url('fundo.png');
+}
 .titulo {
-	
+	display: block;
 	text-align: center;
 	padding: 25px;
 	color: #007788;
 	font-size: 60px;
-	font-family: sans-serif;
+	font-family: fantasy;
 
 }
 .titulo:hover {
-	font-size: 65px;
-	color: #ffffff;
+	font-size: 62px;
+	color: #00bbff;
 }
 
 .caixa {
 
-	width: 940px;
-	margin: 0 auto;
+	width: 2224px;
+	margin: 10px 10px 10px 10px;
 	padding: 5px 0;
 }
 .caixa li {
@@ -36,17 +41,35 @@ header {
 	text-align: center;
 	vertical-align: top;
 	box-sizing: border-box;
-	
-	
 	margin: 10px auto;
-	border: 5mm ridge ;
+	border: 3mm ridge ;
 	border-radius: 12px;
 	padding: 10px ;
 	
 
 }
-.caixa li :hover {
+.caixa li:hover {
 	
-	border: solid;
+	border-color: red;
+}
+
+
+
+.paragrafos p {
+
+	display: inline-flex;
+	font-family: cursive;
+	font-size: 22px;
+	color:green;
+	margin: 20px;
+
+}
+.paragrafos p:hover{
+	font-size: 22.5px;
+	color: #00cc00;
+}
 	
 	
+
+
+

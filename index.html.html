@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset='UTF-8'>
+
+		<title>As fotos do Ota</title>
+		
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="home_ota.css">
+		
+		
+	</head>
+	<body>
+		<header>
+			<div >
+				
+				<p class="titulo"> Galeria Ota </p>
+				
+			</div>
+		</header>
+		<main class="principal">
+
+			<ul class='caixa'>
+				<li>
+					<a href="nadar2.png"><img src="nadar.png"></a>
+				</li>
+				<li>
+					<a href='tulipa2.png'><img src="tulipa.png"></a>
+				</li>
+				<li>
+					<a href="cabelo+barba_grande.jpg"><img src="cabelo+barba.jpg"></a>
+				</li>
+				
+			</ul>
+
+			<div class='paragrafos'>
+				<p>Seu nome: <input type="text" name="nome" value=""></p>
+				
+				<p>Sobrenome: <input type="text" class='snome'></p>
+
+				<button onclick="alerta()">Clique</button>
+			</div>
+
+			<script type="text/javascript">
+				
+				function alerta() {
+					var nomes=document.querySelector('input');
+					var snome=document.querySelector('.snome');
+					alert('Olá '+nomes.value+' '+snome.value+", seu panaca!");
+					nomes.value="";
+					snome.value='';
+					
+				}
+				
+			</script>	
+		</main>
+		<footer class="principal">
+			
+		</footer>
+		
+	</body>
+	
+</html>
