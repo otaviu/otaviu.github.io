@@ -1,0 +1,52 @@
+header {
+	
+
+	border-radius: 12px;
+	
+	background: url('espaco_direito.png');
+	background-size: 350px;
+	width: auto;
+	height: 100px;
+	
+	
+
+}
+.titulo {
+	
+	text-align: center;
+	padding: 25px;
+	color: #007788;
+	font-size: 60px;
+	font-family: sans-serif;
+
+}
+.titulo:hover {
+	font-size: 65px;
+	color: #ffffff;
+}
+
+.caixa {
+
+	width: 940px;
+	margin: 0 auto;
+	padding: 5px 0;
+}
+.caixa li {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	box-sizing: border-box;
+	
+	
+	margin: 10px auto;
+	border: 5mm ridge ;
+	border-radius: 12px;
+	padding: 10px ;
+	
+
+}
+.caixa li :hover {
+	
+	border: solid;
+	
+	
